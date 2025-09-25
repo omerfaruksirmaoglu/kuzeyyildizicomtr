@@ -1,0 +1,8 @@
+{
+  "timezone": "Europe/Istanbul",
+  "requireUserLogin": true,
+  "requireAdminLogin": true,
+  "startAtIso": "2025-09-28T00:00:00+03:00",
+  "endAtIso": "2025-09-29T23:59:59+03:00",
+  "giftMessage": "Senin zekân ve sabrın sayesinde yolculuğun ilk büyük sırrı çözüldü.\nKapı açıldı… ama yol henüz burada bitmedi.\n🕛 Gece yarısına kadar beklemek. 🕛\nZaman ilerledikçe, sürpriz de sana yaklaşacak.\nVe 12 olduğunda… seni en parlak ışık ve en tatlı sürpriz karşılayacak.\n💙Sabır, bu oyunun en değerli anahtarı💙"
+}

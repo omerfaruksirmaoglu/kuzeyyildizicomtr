@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kuzey Yıldızım</title>
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="/css/music-player.css">
+</head>
+<body>
+    <div class="fullscreen-center">
+        <div class="container text-center">
+            <h1 style="margin-bottom: 2rem;">Seni Bekleyen Sürpriz ✨🦢✨</h1>
+            
+            <!-- Big Flip Countdown -->
+            <div id="mainCountdown" class="flip-counter" style="margin-bottom: 3rem; justify-content: center;">
+                <div class="flip-digit">
+                    <div class="flip-digit-content" id="days">00</div>
+                </div>
+                <span style="margin: 0 0.5rem;">:</span>
+                <div class="flip-digit">
+                    <div class="flip-digit-content" id="hours">00</div>
+                </div>
+                <span style="margin: 0 0.5rem;">:</span>
+                <div class="flip-digit">
+                    <div class="flip-digit-content" id="minutes">00</div>
+                </div>
+                <span style="margin: 0 0.5rem;">:</span>
+                <div class="flip-digit">
+                    <div class="flip-digit-content" id="seconds">00</div>
+                </div>
+            </div>
+            
+            <div id="entryMessage" class="card">
+                <div id="entryMessageText" class="entry-message">
+                    Hediyene ulaşabilmek için yeni bir Yolculuğa Başlıyorsun…<br>
+                    Geri sayımın sonunda seni, yalnızca sana özel bir macera bekliyor.<br>
+                    Her ipucu, kalbime giden yolun gizli haritasından bir parça…<br>
+                    Her bilmece, seni sürprizine biraz daha yaklaştıracak.<br>
+                    Unutma, bu yolculuğun kahramanı sensin ve sonunda en güzel hediye seni bekliyor. 🩵🩵
+                </div>
+            </div>
+            
+            <!-- Gift Mode Message -->
+            <div id="giftMessage" class="card hide">
+                <div class="entry-message" id="giftMessageText"></div>
+            </div>
+            
+            <div style="margin-top: 2rem;">
+                <button onclick="logout()" class="btn btn-secondary">
+                    Çıkış Yap
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <script src="/js/animation/flipDigits.js"></script>
+    <script>
+        let countdownInterval;
+        let isGiftMode = false;
+        
+        async function checkStatus() {
+            try {
+                const response = await fetch('/api/auth-status');
+                const data = await response.json();
+                
+                if (!data.loggedIn) {
+                    window.location.href = '/login.html';
+                    return;
+                }
+                
+                isGiftMode = data.giftMode;
+                
+                const entryMessageEl = document.getElementById('entryMessage');
+                const giftMessageEl = document.getElementById('giftMessage');
+                const giftMessageTextEl = document.getElementById('giftMessageText');
+                
+                if (isGiftMode) {
+                    entryMessageEl.classList.add('hide');
+                    giftMessageEl.classList.remove('hide');
+                    
+                    if (data.postAnswerMessageForGiftMode) {
+                        // Özel mesaj varsa onu göster
+                        giftMessageTextEl.textContent = data.postAnswerMessageForGiftMode;
+                    } else {
+                        // Özel mesaj yoksa varsayılan hediye mesajını yükle
+                        const configResponse = await fetch('/api/admin/config');
+                        const config = await configResponse.json();
+                        giftMessageTextEl.textContent = config.giftMessage || 'Senin zekân ve sabrın sayesinde yolculuğun ilk büyük sırrı çözüldü.\nKapı açıldı… ama yol henüz burada bitmedi.\n🕛 Gece yarısına kadar beklemek. 🕛\nZaman ilerledikçe, sürpriz de sana yaklaşacak.\nVe 12 olduğunda… seni en parlak ışık ve en tatlı sürpriz karşılayacak.\n💙Sabır, bu oyunun en değerli anahtarı💙';
+                    }
+                } else {
+                    entryMessageEl.style.display = 'block';
+                    giftMessageEl.classList.add('hide');
+                }
+                
+                startCountdownPolling();
+            } catch (error) {
+                console.error('Failed to check status:', error);
+            }
+        }
+        
+        function startCountdownPolling() {
+            // Initial load
+            updateCountdownFromServer();
+            
+            // Update every second
+            countdownInterval = setInterval(updateCountdownFromServer, 1000);
+        }
+        
+        async function updateCountdownFromServer() {
+            try {
+                const response = await fetch('/api/countdown-data');
+                const data = await response.json();
+                
+                if (data.msToNext <= 0) {
+                    clearInterval(countdownInterval);
+                    window.location.href = '/app.html';
+                    return;
+                }
+                
+                updateCountdownDisplay(data.msToNext);
+            } catch (error) {
+                console.error('Failed to update countdown:', error);
+            }
+        }
+        
+        function updateCountdownDisplay(ms) {
+            const days = Math.floor(ms / (1000 * 60 * 60 * 24));
+            const hours = Math.floor((ms % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            const minutes = Math.floor((ms % (1000 * 60 * 60)) / (1000 * 60));
+            const seconds = Math.floor((ms % (1000 * 60)) / 1000);
+            
+            document.getElementById('days').textContent = String(days).padStart(2, '0');
+            document.getElementById('hours').textContent = String(hours).padStart(2, '0');
+            document.getElementById('minutes').textContent = String(minutes).padStart(2, '0');
+            document.getElementById('seconds').textContent = String(seconds).padStart(2, '0');
+        }
+        
+        async function logout() {
+            try {
+                await fetch('/api/logout', { method: 'POST' });
+                window.location.href = '/login.html';
+            } catch (error) {
+                console.error('Logout failed:', error);
+            }
+        }
+        
+        // Initialize
+        checkStatus();
+    </script>
+    <script src="/js/music-player.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,164 @@
+[
+  {
+    "atIso": "2025-09-28T00:00+03:00",
+    "type": "message",
+    "message": "🩵 Aşkın Şifresi 🩵\nMacera başlıyor…\nÖnünde, çözülmeyi bekleyen 19 harften oluşan gizemli bir şifre var.\nBu şifre, sadece kelimelerden ibaret değil; kalbime giden gizli bir kapının anahtarı.\nSabır senin en güçlü silahın olacak.\nHer harfi çözdükçe, seni bana ve seni bekleyen sürprize biraz daha yaklaştıracaksın.\nAma unutma: ne kadar hızlı ilerlersen, ödülüne o kadar hızlı kavuşacaksın.\nBu yolculuk senin için hazırlandı, her adımı sadece sana özel.\nVe finalde, seni bekleyen şey yalnızca bir hediye değil…\nBenim sevgimle hazırlanmış, kalbine dokunacak bir sürpriz olacak. ✨\nHazır mısın bebeğimm?\nOyun başlıyor…",
+    "media": [],
+    "question": "Soru:\nGeceleri sana ışık olan,\nKaranlıkta yanında duran…\nKüçük ama kalpten gelen bir armağan,\nAdını sen koydun: sana özel bir can.\nBana doğru yolu gösteren,\nSeninle birlikteyken en parlak görünen…\nO nedir?",
+    "answer": "kuzeycik",
+    "hints": [
+      "K harfi ile başlıyor.",
+      "Onun minik ayakları var."
+    ],
+    "postAnswerMessage": "Karanlığın küçük yıldızı bulundu: Kuzeycik. Sanırım Kuzeyciğin poposuna bir şey yapışmış, kontrol etmek istersin diye düşünüyorum."
+  },
+  {
+    "atIso": "2025-09-28T07:00+03:00",
+    "type": "media",
+    "message": "Yolculuğun bir sonraki durağı, kendi krallığın: evin…\nOrada, gözlerden saklı küçük bir hazine bekliyor…\nOnu bulmanın anahtarı ise karşındaki videoda…\nVideoyu dikkatle izle; her saniye, saklı yeri ele veren minik bir iz taşıyor.\nBulduğunda, acele etme.\nPuzzle'ın her parçası, sevgimden bir iz gibi yerine oturacak.\nParçalar bir araya geldikçe, hikâyemizin resmi netleşecek—tıpkı ikimizin fotoğrafları gibi.\nSon hamle çok önemli:\nPuzzle tamamlandığında, arkasındaki yazıyı oku ve aklında tut.\nBu yazı, bir sonraki kapının şifresi olacak.\n(İpucu: Notu yazmana gerek yok; kalbin güçlü bir hafıza kasasıdır. 😉)\nUnutma… ne kadar hızlı tamamlarsan, hediyene o kadar hızlı kavuşursun.\nAma en güzeli, bu anların keyfini çıkarmak. Çünkü bu oyun, bizim hikâyemizin başka bir sayfası. ❤️",
+    "media": [
+      {
+        "kind": "video",
+        "src": "/content/media/puzzle.mp4",
+        "poster": "/content/media/puzzle.mp4"
+      }
+    ],
+    "question": null,
+    "answer": null,
+    "hints": []
+  },
+  {
+    "atIso": "2025-09-28T12:00:00+03:00",
+    "type": "message",
+    "message": "Yolculuğunda yeni bir kapı açılıyor…\nBu kez ipucu seni geçmişimize götürüyor.\nBir zamanlar sana verdiğim, yüzeyinde birlikteki en mutlu anılarımızı taşıyan küçük bir küp hatırlıyor musun? ✨\nO, sadece bir süs değil… içinde saklı sırrı olan bir hatıra sandığı.\nKüpün içinde, sana özel gizli bir şey saklı. Onu bulmak için tek yapman gereken şey:\n👉 Küpü bulmak.\n👉 Ve içindekileri keşfetmek.\nUnutma sevgilim, bu küpün her yüzü seninle yaşadığım anların bir yansıması.\nVe kalbimin sana sakladığı sürpriz, tam da o anıların içinde gizleniyor.\nHazır mısın?\nKüp seni bekliyor… ve içinde gizlenen küçük sır da.",
+    "media": [],
+    "question": null,
+    "answer": null,
+    "hints": []
+  },
+  {
+    "atIso": "2025-09-28T17:00:00+03:00",
+    "type": "message",
+    "message": "Her yolculuk biraz da köklere inmektir…\nŞimdi sıradaki görev seni, birlikte inşa ettiğimiz bir hatıraya götürüyor: aile ağacı temalı legomuz. 🧱✨\nDallarında fotoğraflarımız asılı; her yaprak, her kare, birlikte yazdığımız bir hikâyeyi saklıyor.\nAma hepsi göründüğü kadar basit değil…\nBazılarının arkasında sana özel gizli mesajlar gizledim. 🕵️‍♀️💌\nGörevin çok açık:\n👉 Ağacın dallarındaki fotoğrafları tek tek çevir.\n👉 Gizli mesajları bul ve dikkatle oku.\n👉 Onları aklında tut, çünkü sonraki adımda kapıyı açan anahtar olacaklar. 🔑\nUnutma sevgilim, bu sadece bir oyun değil…\nHer mesaj, sana olan sevgimin küçük bir yansıması.\nVe her satır seni, sürprizine biraz daha yaklaştıracak.\nHazırsan: ağaç köklerini fısıldasın, dallar sana sırlarını versin.",
+    "media": [],
+    "question": null,
+    "answer": null,
+    "hints": []
+  },
+  {
+    "atIso": "2025-09-28T17:00:10+03:00",
+    "type": "question",
+    "message": "Bugün yol boyunca birçok sırrı çözdün… Şimdi 19 harften oluşan büyük şifreyi girme zamanı. 🔐",
+    "media": [],
+    "question": "Şifreyi yaz:",
+    "answer": "İYİ Kİ DOĞDUN SEVGİLİM",
+    "hints": [
+      "Şifrenin hepsi büyük harflerle ve kelimeler birbirinden ayrı olmalı.",
+      "Şifre için beni arayıp benden yardım alabilirsin.",
+      "Anlamı: 'Happy birthday my love'"
+    ],
+    "postAnswerMessage": "Senin zekân ve sabrın sayesinde yolculuğun ilk büyük sırrı çözüldü.\nKapı açıldı… ama yol henüz burada bitmedi.\n🕛 Gece yarısına kadar beklemek. 🕛\nZaman ilerledikçe, sürpriz de sana yaklaşacak.\nVe 12 olduğunda… seni en parlak ışık ve en tatlı sürpriz karşılayacak. \n💙💙Sabır, bu oyunun en değerli anahtarı💙💙"
+  },
+  {
+    "atIso": "2025-09-29T00:00+03:00",
+    "type": "media",
+    "message": "Birinci yolculuğun bitti… Ama seninle olan maceram asla bitmez.\nŞimdi seni ikinci yolculuğuna davet ediyorum.\nBu kez daha özel, daha romantik ve sana daha çok ait bir hazine bekliyor…\nEvinin içinde gizlenmiş, ama her an sana daha da yakın.\nKalbimin sana attığı her adım gibi. ♥️\nHazır ol sevgilim… Çünkü ikinci yolculuğun tam şimdi başlıyor. 🌙✨",
+    "preContentNote": "Hediyeni bulduktan sonra sakın **HEDİYEMİ BULDUM** butonuna basmadan kutuyu açma.",
+    "media": [
+      {
+        "kind": "video",
+        "src": "/content/media/cryptex.mp4",
+        "poster": "/content/media/cryptex.jpg"
+      }
+    ],
+    "question": null,
+    "answer": null,
+    "hints": [],
+    "cta": {
+      "label": "HEDİYEMİ BULDUM",
+      "afterCtaMessage": "Yolculuğunun bu adımında seni çok özel bir sır bekliyor…\nKarşında duran şey bir Da Vinci Cryptex. 🗝️\nİçinde sana ait, çok değerli ve hassas bir hediye saklı.\nAma sevgilim, bu cryptex asla zorlanmamalı…\nŞifre deneme-yanılma ile bulunmayacak; doğru zamanı gelmeden açılmayacak.\nVe lütfen unutma: Cryptex seninle işe gitmemeli. Onu evde bırak.\nİşe götürmen gereken şeyler zamanı gelince bildirilecek.\nSabırlı ol… Sabah 05:30'da her şey biraz daha netleşecek :) ✨"
+    }
+  },
+  {
+    "atIso": "2025-09-29T05:30:00+03:00",
+    "type": "message",
+    "message": "Şimdi sırada kalbimin sana en özel armağanlarından biri var…\nZamanında aşkımızı anlatmak için sana yazdığım kitabı hatırlıyor musun? 📖\nBu kitabı şimdi açmanı istiyorum… ama yalnızca **son sayfasına** bak.\nOrada seni bir sonraki adıma götürecek ipucu var.\nVe çok önemli: Bu kitabı yanında taşımalısın.\nBugün işe giderken mutlaka yanında olmalı.\nÇünkü yolculuğunun devamı, o kitap seninle birlikte olduğunda mümkün olacak.\nKalbimle yazdım, şimdi kalbine rehberlik etsin… 💫",
+    "media": [],
+    "question": null,
+    "answer": null,
+    "hints": []
+  },
+  {
+    "atIso": "2025-09-29T09:00+03:00",
+    "type": "media",
+    "message": "Bu ses dosyasını dinlemen gerekiyor bebeğimmm 💙",
+    "media": [
+      {
+        "kind": "audio",
+        "src": "/content/media/morse.wav",
+        "alt": "Ses Dosyasını İndir"
+      }
+    ],
+    "question": null,
+    "answer": null,
+    "hints": [
+      "Bu ses dosyasında bir mesaj gizli...",
+      "Nokta ve Çizgiler",
+      "Ses dosyasını indir butonu boşuna değil"
+      "Bu siteden yardım alabilirsin : https://morsecode.world/international/decoder/audio-decoder-adaptive.html"
+      "Chatgpt'ye ses dosyasını atmayı deneyebilirsin"
+    ]
+  },
+  {
+    "atIso": "2025-09-29T12:00:00+03:00",
+    "type": "question",
+    "message": "Soru:",
+    "media": [],
+    "question": "uğpkpoğ ıkvvkikökc ökeiğokp bjogjcoj tğuvrtçpjp çgj pğbgk ?",
+    "answer": "Od Urla",
+    "hints": [
+      "+3",
+      "Türk alfabesi",
+      "Harfleri 3 defa ileriye kaydır"
+    ],
+    "postAnswerMessage": "(39.89422496988025, 32.87189206679238)"
+  },
+  {
+    "atIso": "2025-09-29T14:00:00+03:00",
+    "type": "message",
+    "message": "Sevgilim…\nSana çok yakın, her an yanında taşıdığın bir yerde küçük bir sürpriz sakladım.\nCevabı bulmak için yapman gereken tek şey: **cüzdanına bakmak**. ✨",
+    "media": [],
+    "question": null,
+    "answer": null,
+    "hints": []
+  },
+  {
+    "atIso": "2025-09-29T16:30:00+03:00",
+    "type": "message",
+    "message": "Sevgilim, yolculuğun burada biraz daha derinleşiyor…\nZamanında sana yazdığım kitabı eline al. 📖\nAma bu defa yalnızca okumak yetmeyecek… Sayfaları dikkatlice incelemen gerekiyor.\nHer satırda, her sayfada seni bekleyen küçük bir iz saklı.\nDikkatli gözlerin onu fark edecek… ve bu seni bir şifreye götürecek. 🔐\nUnutma; anahtar satırlarda gizli…",
+    "media": [],
+    "question": "Gizli şifre nedir?",
+    "answer": "seni çok seviyorum",
+    "hints": [
+      "İşaretli harflere bak",
+      "Sırayla birleştir",
+      "Her kelimeyi ayırarak küçük harflerle yaz"
+    ],
+    "postAnswerMessage": "Sonunda Da Vinci’nin cryptexini açabilmek için gereken son üç harfe de ulaştın. Harfler sırasıyla: I, L ve O . Yani ilk harfimiz I harfi, ikinci harfimiz L harfi, üçüncü harfimiz ise O harfi. Şimdi diğer harflerle bu son parçaları birleştir ve şifreyi çöz. Ama unutma: Cryptex kaba kuvvetle açılacak bir sır kutusu değildir. Onu nazikçe, sabırla, bir bilgenin elleriyle çözmen gerekir. Yavaş hareket et; içindeki sır, tek bir aceleci dokunuşla sonsuza dek kaybolabilir. Eğer doğru harfler bir araya gelirse, cryptex kendiliğinden, zahmetsizce açılacaktır. İşte o an, içindeki büyük gizem nihayet sana görünecek…"
+  },
+  {
+    "atIso": "2025-09-29T18:00+03:00",
+    "type": "media",
+    "message": "Yavrum…\nBugün yolculuğunun her adımında sabrınla, dikkatle ve kalbinle ilerledin.\nArtık oyunun sonuna geldin… ve seni bekleyen ödül yalnızca bir hediye değil.\nBu geceyi seninle en özel şekilde tamamlamak istiyorum.\nO yüzden seni, bizim için özel bir yerde ayırdığım masaya davet ediyorum.\nRezervasyonumuz hazır… Ve tek yapman gereken, kalbinle bana eşlik etmek.\nİYİ Kİ DOĞDUN SEVGİLİM",
+    "media": [
+      {
+        "kind": "image",
+        "src": "/content/media/rezerv.png",
+        "alt": "/content/media/rezerv.png"
+      }
+    ],
+    "question": null,
+    "answer": null,
+    "hints": []
+  }
+]

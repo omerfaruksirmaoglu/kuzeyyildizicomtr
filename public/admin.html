@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Panel - Romantic Surprise</title>
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+    <div class="container" style="padding-top: 2rem;">
+        <!-- Header -->
+        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 2rem;">
+            <h1>Admin Panel</h1>
+            <div>
+                <a href="/" class="btn btn-secondary" style="margin-right: 1rem;">View App</a>
+                <button onclick="logout()" class="btn btn-secondary">Logout</button>
+            </div>
+        </div>
+
+        <!-- Simulation Banner -->
+        <div id="simBanner" class="hide" style="background: rgba(251, 191, 36, 0.1); border: 1px solid #FCD34D; border-radius: var(--radius-xl); padding: 1rem; margin-bottom: 2rem; text-align: center;">
+            <strong>⚠️ Simulation Mode Active:</strong> <span id="simTime"></span>
+            <button onclick="clearSimulation()" class="btn btn-secondary" style="margin-left: 1rem; padding: 0.5rem 1rem; font-size: 0.875rem;">Clear</button>
+        </div>
+
+        <!-- Navigation -->
+        <div class="admin-nav">
+            <button id="configTab" class="active" onclick="showTab('config')">General Settings</button>
+            <button id="scheduleTab" onclick="showTab('schedule')">Day Controller</button>
+            <button id="contentTab" onclick="showTab('content')">Content Editor</button>
+        </div>
+
+        <!-- Config Panel -->
+        <div id="configPanel" class="card">
+            <h2>General Settings</h2>
+            <form id="configForm">
+                <div class="form-group">
+                    <label for="startAtIso">Start Time (ISO)</label>
+                    <input type="datetime-local" id="startAtIso" class="input" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="endAtIso">End Time (ISO)</label>
+                    <input type="datetime-local" id="endAtIso" class="input" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="timezone">Timezone</label>
+                    <input type="text" id="timezone" class="input" value="Europe/Istanbul" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="giftMessage">Gift Message</label>
+                    <textarea id="giftMessage" class="input textarea" placeholder="Message shown in gift countdown mode..."></textarea>
+                </div>
+                
+                <button type="submit" class="btn btn-primary">Save Config</button>
+            </form>
+
+            <hr style="margin: 2rem 0; border: none; border-top: var(--border-subtle);">
+            
+            <h3>Simulation Time</h3>
+            <div style="display: flex; gap: 1rem; align-items: end;">
+                <div class="form-group" style="flex: 1; margin-bottom: 0;">
+                    <label for="simTimeInput">Preview Time (ISO)</label>
+                    <input type="datetime-local" id="simTimeInput" class="input">
+                </div>
+                <div class="form-group" style="width: 150px; margin-bottom: 0;">
+                    <label for="simSpeedInput">Speed Multiplier</label>
+                    <input type="number" id="simSpeedInput" class="input" value="1" min="0.1" step="0.1">
+                </div>
+                <button onclick="setSimulation()" class="btn btn-primary">Set</button>
+                <button onclick="clearSimulation()" class="btn btn-secondary">Clear</button>
+            </div>
+            <div style="display: flex; gap: 1rem; margin-top: 1rem;">
+                <button onclick="advanceSimulation('hour', 1)" class="btn btn-secondary">Advance 1 Hour</button>
+                <button onclick="advanceSimulation('day', 1)" class="btn btn-secondary">Advance 1 Day</button>
+                <button onclick="setSpeed(10)" class="btn btn-secondary">10x Speed</button>
+                <button onclick="setSpeed(60)" class="btn btn-secondary">60x Speed</button>
+            </div>
+        </div>
+
+        <!-- Schedule Panel -->
+        <div id="schedulePanel" class="card hide">
+            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 2rem;">
+                <h2>Day Controller</h2>
+                <div>
+                    <button onclick="importSchedule()" class="btn btn-secondary" style="margin-right: 1rem;">Import</button>
+                    <button onclick="exportSchedule()" class="btn btn-secondary">Export</button>
+                    <button onclick="previewAll()" class="btn btn-secondary" style="margin-left: 1rem;">Preview All</button>
+                    <input type="file" id="importFile" accept=".json" style="display: none;">
+                </div>
+            </div>
+            
+            <div id="scheduleList"></div>
+            
+            <button onclick="addEntry()" class="btn btn-primary">Add New Entry</button>
+        </div>
+
+        <!-- Content Editor Panel -->
+        <div id="contentPanel" class="card hide">
+            <h2>Content Editor</h2>
+            <div id="contentEditor">
+                <p class="text-muted">Select an entry from the Day Controller to edit its content.</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="/js/admin.js"></script>
+</body>
+</html>

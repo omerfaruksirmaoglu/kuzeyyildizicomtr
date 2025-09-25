@@ -1,0 +1,224 @@
+{
+  "autoplay": true,
+  "shuffle": false,
+  "repeat": "all",
+  "volume": 0.6,
+  "tracks": [
+    {
+      "title": "Kuzey Yıldızı",
+      "artist": "Çağan Şengül",
+      "file": "kuzeyyıldızı.mp3",
+      "cover": "cover-1.jpg"
+    },
+    {
+      "title": "Tüm Bir Yaşam",
+      "artist": "Erol Evgin & Atiye",
+      "file": "tumbiryasam.mp3",
+      "cover": "cover-4.jpg"
+    },
+    {
+      "title": "Hoşgeldin",
+      "artist": "Cem Adrian",
+      "file": "hosgeldincem.mp3",
+      "cover": "cover-6.jpg"
+    },
+    {
+      "title": "Perfect",
+      "artist": "Ed Sheeran",
+      "file": "perfect.mp3",
+      "cover": "cover-3.jpg"
+    },
+    {
+      "title": "Ahtapotlar",
+      "artist": "Zakkum",
+      "file": "ahtapotlar.mp3",
+      "cover": "cover-5.jpg"
+    },
+    {
+      "title": "Yasemin",
+      "artist": "Burak Bulut & Serdar Ortaç",
+      "file": "yasemin.mp3",
+      "cover": "cover-7.jpg"
+    },
+    {
+      "title": "Sen Gel Diyorsun (Öf Öf)",
+      "artist": "Cem Adrian",
+      "file": "sengelcem.mp3",
+      "cover": "cover-8.jpg"
+    },
+    {
+      "title": "Bağdat",
+      "artist": "Ayla Çelik & Beyazıt Öztürk",
+      "file": "bagdat.mp3",
+      "cover": "cover-10.jpg"
+    },
+    {
+      "title": "AŞK",
+      "artist": "Dedublüman & Cem Adrian",
+      "file": "askcem.mp3",
+      "cover": "cover-2.jpg"
+    },
+    {
+      "title": "Bana Öyle Bakma",
+      "artist": "Teoman",
+      "file": "banaoyle.mp3",
+      "cover": "cover-11.jpg"
+    },
+    {
+      "title": "Sana Sarılınca",
+      "artist": "Cem Adrian",
+      "file": "sanasarcem.mp3",
+      "cover": "cover-12.jpg"
+    },
+    {
+      "title": "Jest Oldu",
+      "artist": "Karsu",
+      "file": "jest.mp3",
+      "cover": "cover-13.jpg"
+    },
+    {
+      "title": "Nayino",
+      "artist": "Karmate",
+      "file": "nayino.mp3",
+      "cover": "cover-14.jpg"
+    },
+    {
+      "title": "Ah Bu Ben",
+      "artist": "Mazhar Alanson",
+      "file": "ahbuben.mp3",
+      "cover": "cover-15.jpg"
+    },
+    {
+      "title": "Söyle Canım",
+      "artist": "Erol Evgin",
+      "file": "soylecanim.mp3",
+      "cover": "cover-16.jpg"
+    },
+    {
+      "title": "Sen Benim Şarkılarımsın",
+      "artist": "Cem Adrian & Hande Mehan",
+      "file": "senbenimcem.mp3",
+      "cover": "cover-17.jpg"
+    },
+    {
+      "title": "Sevdim Seni Bir Kere",
+      "artist": "Teoman",
+      "file": "sevdimbirkere.mp3",
+      "cover": "cover-18.jpg"
+    },
+    {
+      "title": "İncir",
+      "artist": "İlyas Yalçıntaş",
+      "file": "incir.mp3",
+      "cover": "cover-9.jpg"
+    },
+    {
+      "title": "Bana Sen Lazımsın",
+      "artist": "Rafet El Roman",
+      "file": "banasenlazim.mp3",
+      "cover": "cover-19.jpg"
+    },
+    {
+      "title": "Someone Like You",
+      "artist": "adele",
+      "file": "someone.mp3",
+      "cover": "cover-20.jpg"
+    },
+    {
+      "title": "Not Today",
+      "artist": "Imagine Dragons",
+      "file": "nottoday.mp3",
+      "cover": "cover-21.jpg"
+    },
+    {
+      "title": "Açık Adres",
+      "artist": "Gökhan Türkmen",
+      "file": "acikadres.mp3",
+      "cover": "cover-22.jpg"
+    },
+    {
+      "title": "Love Me Like You Do",
+      "artist": "Ellie Goulding",
+      "file": "lovemelike.mp3",
+      "cover": "cover-23.jpg"
+    },
+    {
+      "title": "Gözleri Aşka Gülen",
+      "artist": "Nilipek",
+      "file": "gozleri.mp3",
+      "cover": "cover-24.jpg"
+    },
+    {
+      "title": "Her Şey Sensin",
+      "artist": "Yalın",
+      "file": "yalinhersey.mp3",
+      "cover": "cover-25.jpg"
+    },
+    {
+      "title": "Olmazsan Olmaz",
+      "artist": "Güliz Ayla",
+      "file": "olmazsanolmaz.mp3",
+      "cover": "cover-26.jpg"
+    },
+    {
+      "title": "Ey Aşk",
+      "artist": "Sezen Aksu",
+      "file": "eyask.mp3",
+      "cover": "cover-27.jpg"
+    },
+    {
+      "title": "Disfruto",
+      "artist": "Carla Morrison",
+      "file": "disfruto.mp3",
+      "cover": "cover-28.jpg"
+    },
+    {
+      "title": "Ta Uzak Yollardan",
+      "artist": "Nilüfer",
+      "file": "tauzak.mp3",
+      "cover": "cover-29.jpg"
+    },
+    {
+      "title": "Seni Dert Etmeler",
+      "artist": "Madrigal",
+      "file": "senidert.mp3",
+      "cover": "cover-30.jpg"
+    },
+    {
+      "title": "Mutlu Olmak Zordur Derler",
+      "artist": "Canozan",
+      "file": "mutluolmak.mp3",
+      "cover": "cover-31.jpg"
+    },
+    {
+      "title": "Belki Üstümüzden Bir Kuş Geçer",
+      "artist": "Yüksek Sadakat",
+      "file": "belkibirkus.mp3",
+      "cover": "cover-32.jpg"
+    },
+    {
+      "title": "Bütün İstanbul Biliyo",
+      "artist": "İkiye On Kala",
+      "file": "istanbulbiliyo.mp3",
+      "cover": "cover-33.jpg"
+    },
+    {
+      "title": "Bana Ellerini Ver",
+      "artist": "Özdemir Erdoğan",
+      "file": "banaelleriniver.mp3",
+      "cover": "cover-34.jpg"
+    },
+    {
+      "title": "İstanbul Benden Büyük",
+      "artist": "Yalın",
+      "file": "istanbulbenden.mp3",
+      "cover": "cover-35.jpg"
+    },
+    {
+      "title": "Toprak Yağmura",
+      "artist": "Can Ozan",
+      "file": "toprakyagmur.mp3",
+      "cover": "cover-36.jpg"
+    }
+  ]
+}

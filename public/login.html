@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kuzey Yıldızım</title>
+    <link rel="stylesheet" href="/css/styles.css">
+    <style>
+        .preload-hidden {
+            opacity: 0;
+            visibility: hidden;
+        }
+        
+        .preload-visible {
+            opacity: 1;
+            visibility: visible;
+            transition: opacity 0.3s ease, visibility 0.3s ease;
+        }
+    </style>
+</head>
+<body class="preload-hidden">
+    <div class="fullscreen-center">
+        <div class="card" style="max-width: 400px; width: 100%;">
+            <div class="text-center mb-6">
+                <svg class="heart-icon" style="width: 48px; height: 48px; margin: 0 auto; color: var(--accent);" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
+                </svg>
+                <h1 style="margin-top: 1rem;">Hoş Geldin SEVGİLİM</h1>
+                <p class="text-muted">Hediyene ulaşabilmek için giriş yap ve her anın tadını sonuna kadar çıkar sevgilim🩵🩵</p>
+            </div>
+            
+            <form id="loginForm">
+                <div class="form-group">
+                    <label for="username">Kullanıcı Adı</label>
+                    <input type="text" id="username" class="input" required autocomplete="username">
+                </div>
+                
+                <div class="form-group">
+                    <label for="password">Şifre</label>
+                    <input type="password" id="password" class="input" required autocomplete="current-password">
+                </div>
+                
+                <button type="submit" class="btn btn-primary" style="width: 100%;">
+                    Giriş Yap
+                </button>
+            </form>
+            
+            <div id="errorMessage" class="hide" style="margin-top: 1rem; padding: 1rem; background: rgba(239, 68, 68, 0.1); border-radius: var(--radius-xl); color: #EF4444; text-align: center;"></div>
+        </div>
+    </div>
+
+    <script src="/js/login.js"></script>
+</body>
+</html>
